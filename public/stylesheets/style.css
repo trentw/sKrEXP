@@ -1,6 +1,6 @@
 body {
   background-image: url("../images/bg3.jpg");
-  font-family: Tahoma, Geneva, sans-serif; }
+  font-family: Verdana, Verdana, Geneva, sans-serif; }
 
 .content {
   background-color: #fff;
@@ -26,3 +26,20 @@ body {
     font-family: Palatino Linotype, Book Antiqua, Palatino, serif; }
   .content #playList {
     margin-left: 125px; }
+  .content .nav {
+    margin: 5px;
+    text-align: center;
+    color: #000; }
+  .content .bottomLinks {
+    margin-top: 10px;
+    text-align: center;
+    color: #666666; }
+    .content .bottomLinks a {
+      color: #333333; }
+      .content .bottomLinks a:hover {
+        color: #fff;
+        text-decoration: none;
+        background-color: #666666; }
+
+.clearing {
+  clear: both; }

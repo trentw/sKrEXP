@@ -1,6 +1,6 @@
 body {
   background-image: url('../images/bg3.jpg');
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Verdana, Verdana, Geneva, sans-serif;
 }
 
 .content {
@@ -32,4 +32,28 @@ body {
   #playList {
     margin-left: 125px;
   }
+  
+  .nav {
+    margin: 5px;
+    text-align: center;
+    color: #000;
+  }
+  
+  .bottomLinks {
+    margin-top: 10px;
+    text-align: center;
+    color: #666666;
+    a {
+      color: #333333;
+      &:hover{
+        color: #fff;
+        text-decoration: none;
+        background-color: #666666;
+      }
+    }
+  }
+}
+
+.clearing {
+  clear: both;
 }
