@@ -1,0 +1,28 @@
+body {
+  background-image: url("../images/bg3.jpg");
+  font-family: Tahoma, Geneva, sans-serif; }
+
+.content {
+  background-color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 600px;
+  border: 5px solid #666666;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-bottom: 15px; }
+  .content h1 {
+    text-align: center;
+    margin-bottom: 0px; }
+  .content h2 {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif; }
+  .content #playList {
+    margin-left: 125px; }

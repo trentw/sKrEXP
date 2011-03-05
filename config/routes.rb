@@ -1,4 +1,7 @@
 SKrEXP::Application.routes.draw do
+  get "display/recent"
+  root :to => "display#recent"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
