@@ -5,13 +5,16 @@ class DisplayController < ApplicationController
   require 'uri'
   
   def recent
-    uri = URI.parse("http://mooncolony.org/json")
+    uri = URI.parse("http://mooncolony.org:8000/now")
     response = Net::HTTP.get_response(uri)
     @page_title = "recently played"
-    @response = ""
+    @response = response.body
   end
-
-  def favorites
+  
+  def favorite
+    uri = URI.parse("http://mooncolony.org:8000/favorites")
+    response = Net::HTTP.get_response(uri)
     @page_title = "favorites"
+    @response = response.body
   end
 end
