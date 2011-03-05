@@ -1,0 +1,10 @@
+!!! Strict
+%html
+  %head
+    %title
+      sKrEXP | #{@page_title || 'Welcome'}
+    %link{:href => "/images/favicon.ico", :rel => "shortcut icon", :type => "image"}
+    = stylesheet_link_tag('style', :media => 'all')
+  %body
+    .content
+      =yield
